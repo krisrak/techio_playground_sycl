@@ -1,0 +1,29 @@
+title: DPC++
+plan:
+- title: Learn DPC++
+  description: Learn basics of Data Parallel C++ programming for heterogeneous computing.
+  plan:
+  - title: Hello DPC++
+    statement: markdowns/hello.md
+  - title: Memory Management
+    statement: markdowns/memory.md
+  - title: » Buffers and Accessors
+    statement: markdowns/buffer.md
+  - title: » Unified Shared Memory
+    statement: markdowns/usm.md
+  - title: Offload Computation
+    statement: markdowns/offload.md
+- title: Test DPC++
+  description: Play with Data Parallel C++ code
+  plan:
+  - title: Playground
+    statement: markdowns/playground.md
+  - title: Quiz
+    statement: markdowns/quiz.md
+projects:
+  dpcpp-project:
+    root: /project
+    runner:
+      name: intel/oneapi-hpckit
+      version: latest
+        
